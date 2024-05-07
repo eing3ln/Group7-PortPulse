@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>PortPulse</title>
+  <link rel="icon" type="image/x-icon" href="images/logo.png">
+
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  <script src='https://kit.fontawesome.com/a076d05399.js' crossorigin='anonymous'></script>
+</head>
+
+<body>
+ 
+  <!-- Navbar (sit on top) -->
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="container-fluid">
+      <a class="navbar-brand w3-wide"><b>PortPulse</b></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse justify-content-end" id="collapsibleNavbar">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link w3-button" href="home.html">Home</a>
+          </li>
+
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown">Customer</a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="customer/crud-index.php">Customer Reports</a></li>
+              </ul>
+          </li>
+
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" id="navbarDropdownMenuLink" role="button"
+              data-bs-toggle="dropdown">Device</a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="device/create.php">Add Device</a></li>
+              <li><a class="dropdown-item" href="device/crud-index.php">Device Reports</a></li>
+            </ul>
+          </li>
+
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" id="navbarDropdownMenuLink" role="button"
+              data-bs-toggle="dropdown">Luggage</a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="luggage/create.php">Add Luggage</a></li>
+              <li><a class="dropdown-item" href="luggage/crud-index.php">Customer Luggage Report</a></li>
+            </ul>
+          </li>
+
+          <li class="nav-item dropdown dropstart text-end">
+            <a class="nav-link dropdown-toggle" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown">Admin Profile</a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="index.html">Sign out</a></li>
+                <li><hr class="dropdown-divider"></li>
+                <li><a class="dropdown-item" href="register.php">Add Admin Employee</a></li>
+              </ul>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+<!-- Home Page -->
+<header class="w3-container w3-teal w3-center" style="padding:128px 16px">
+  <h1 class="w3-margin w3-jumbo">START PAGE</h1>
+</header>
+
+<div class="w3-row-padding w3-padding-64 w3-container">
+  <div class="w3-content">
+    <div class="w3-rest">
+      <h1 class="w3-center">Hello Admin!</h1>
+      <h5 class="w3-padding-32 w3-center"><b>Lost Luggage? Not on Our Watch!</b><br>Tracking with PortPulse where your luggage is always in Sight!</h5>
+    </div>
+  </div>
+</div>
+
+<!-- Footer -->
+<footer class="footer">
+  <h4 class="footer-dev">Developed by: <h4 class="footer-name">Naguit | Isidro | Opena | Fisalbon | Camus | Aquino</h4></h4>
+</footer>
+
+</body>
+</html>

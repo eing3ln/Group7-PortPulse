@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+<title>PortPulse</title>
+<link rel="icon" type="image/x-icon" href="images/logo.png">
+
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="css/style.css">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+<script src='https://kit.fontawesome.com/a076d05399.js' crossorigin='anonymous'></script>
+</head>
+
+<body>
+
+<!-- Navbar (sit on top) -->
+<div class="w3-top">
+  <div class="w3-bar w3-white w3-padding w3-card" id="myNavbar">
+    <a href="index.html" class="w3-bar-item w3-button w3-wide"><b>PortPulse</b></a>
+  
+<!-- Right-sided navbar links -->
+<div class="w3-right w3-hide-small">
+  <a href="/PortPulse/customer/create.php" class="w3-bar-item w3-button w3-teal">BOOK NOW</a>
+  <a href="about.html" class="w3-bar-item w3-button">ABOUT US</a>
+  <a href="track.html" class="w3-bar-item w3-button">TRACK</a>
+  <a href="developers.html" class="w3-bar-item w3-button">DEVELOPER</a>
+  <a href="contact.html" class="w3-bar-item w3-button">CONTACT</a>
+  <a href="login.php" class="w3-bar-item w3-button">ADMIN LOGIN</a>
+</div>
+  
+<!-- Hide right-floated links on small screens and replace them with a menu icon -->
+<a href="javascript:void(0)" class="w3-bar-item w3-button w3-right w3-hide-large w3-hide-medium" onclick="w3_open()">
+  <i class="fa fa-bars"></i>
+</a>
+</div>
+</div>
+  
+<!-- Sidebar on small screens when clicking the menu icon -->
+<nav class="w3-sidebar w3-bar-block w3-light-grey w3-card w3-animate-left w3-hide-medium w3-hide-large" style="display:none; z-index: 9999;" id="open_sidebar">
+  <a href="javascript:void(0)" onclick="w3_close()" class="w3-bar-item w3-button w3-large w3-padding-16">Close ×</a>
+  <a href="index.html" onclick="w3_close()" class="w3-bar-item w3-button w3-wide"><b>PortPulse</b></a>
+  <a href="/PortPulse/customer/create.php" onclick="w3_close()" class="w3-bar-item w3-button"><i class="fa fa-suitcase" style="color: #435650;"></i>     BOOK NOW</a>
+  <a href="about.html" onclick="w3_close()" class="w3-bar-item w3-button"><i class="fa fa-question" style="color: #435650;"></i>     ABOUT US</a>
+  <a href="track.html" onclick="w3_close()" class="w3-bar-item w3-button"><i class="fa fa-plane" style="color: #435650;"></i>     TRACK</a>
+  <a href="developers.html" onclick="w3_close()" class="w3-bar-item w3-button"><i class="fa fa-user" style="color: #435650;"></i>     DEVELOPER</a>
+  <a href="contact.html" onclick="w3_close()" class="w3-bar-item w3-button"><i class="fa fa-envelope" style="color: #435650;"></i>     CONTACT</a>
+  <a href="login.php" onclick="w3_close()" class="w3-bar-item w3-button"><i class="fa fa-address-card" style="color: #435650;"></i>     ADMIN LOGIN</a>
+</nav>
+
+<!-- Developer Section -->
+<div class="w3-container" style="padding:128px 16px;" id="dev">
+  <h3 class="w3-center">DEVELOPERS</h3>
+  <p class="w3-center w3-large">CPE Practice and Design 2 | Group 7</p>
+  <div class="w3-row-padding w3-grayscale" style="margin-top:48px">
+  
+    <div class="w3-col l6 m12 w3-margin-bottom" style="margin-top:auto; margin-left:auto; margin-bottom:auto;">
+      <div class="w3-card-2" style="display:flex; align-items:center; justify-content:center;">
+        <div style="flex:1;">
+            <img src="images/admin1.png" alt="Eingel Naguit" style="width:100%; filter: saturate(250%); margin-left:15px;">
+        </div>
+        <div style="flex:2; padding: 0 16px;">
+          <div class="w3-container">
+            <h3 style="margin-top:12px; text-align:center">Eingel Naguit</h3>
+            <p class="w3-opacity" style="text-align:center">Project Manager and Lead Software Developer</p>
+            <p>Meet Eingel Naguit, the Project Manager and Lead Software Developer of Group 7, who oversees the project lifecycle, creates and maintains plans, assigns tasks, and monitors progress. One of her responsibilities is to lead the software development team in designing, developing, and implementing the cloud-based luggage tracking system. She also architects the software solution, writes clean and efficient code, and ensures coding standards are followed.</p>
+            <a href="contact.php" class="w3-button w3-light-grey w3-block"><i class="fa fa-envelope"></i> Contact</a><br>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="w3-col l6 m12 w3-margin-bottom" style="margin-top:auto; margin-left:auto; margin-bottom:auto;">
+      <div class="w3-card-2" style="display:flex; align-items:center; justify-content:center;">
+        <div style="flex:1;">
+            <img src="images/admin3.png" alt="Cheilo Isidro" style="width:100%; filter: saturate(250%); margin-left:12px;">
+        </div>
+        <div style="flex:2; padding: 0 16px;">
+          <div class="w3-container">
+            <h3 style="margin-top:12px; text-align:center">Cheilo Isidro</h3>
+            <p class="w3-opacity" style="text-align:center">Junior Software Developer</p>
+            <p>Meet Cheilo Isidro, the Junior Software Developer of Group 7 and the helping hand of the Project Manager in maintaining plans, doing documentations and other requirements. Cheilo collaborates closely with the lead software developer in designing and implementing specific features and functionalities of the luggage tracking system. She assists in writing code, integrating software components, and ensuring compatibility with other system elements.</p>
+            <a href="contact.php" class="w3-button w3-light-grey w3-block"><i class="fa fa-envelope"></i> Contact</a><br>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="w3-col l6 m12 w3-margin-bottom" style="margin-top:auto; margin-left:auto; margin-bottom:auto;">
+      <div class="w3-card-2" style="display:flex; align-items:center; justify-content:center;">
+        <div style="flex:1;">
+            <img src="images/admin6.jpg" alt="Ernesto Camus, Jr." style="width:100%; filter: saturate(250%); margin-left:12px;">
+        </div>
+        <div style="flex:2; padding: 0 16px;">
+          <div class="w3-container">
+            <h3 style="margin-top:12px; text-align:center">Ernesto Camus, Jr.</h3>
+            <p class="w3-opacity" style="text-align:center">Lead Hardware Developer</p>
+            <p>Meet Ernesto Camus, Jr., the Lead Hardware Developer of Group 7, responsible for designing and developing the hardware components of the luggage tracking system, including GPS trackers and communication modules. He selects appropriate hardware components oversees development, and collaborates closely with the software team to ensure seamless integration of hardware and software components.</p>
+            <a href="contact.php" class="w3-button w3-light-grey w3-block"><i class="fa fa-envelope"></i> Contact</a><br>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="w3-col l6 m12 w3-margin-bottom" style="margin-top:auto; margin-left:auto; margin-bottom:auto;">
+      <div class="w3-card-2" style="display:flex; align-items:center; justify-content:center;">
+        <div style="flex:1;">
+            <img src="images/admin2.png" alt="Ralph Opena" style="width:100%; filter: saturate(250%); margin-left:12px;">
+        </div>
+        <div style="flex:2; padding: 0 16px;">
+          <div class="w3-container">
+            <h3 style="margin-top:12px; text-align:center">Ralph Opena</h3>
+            <p class="w3-opacity" style="text-align:center">Junior Hardware Developer</p>
+            <p>Meet Ralph Opena, one of the Junior Hardware Developer of Group 7, assists the lead hardware developer and other team members in designing, developing, and testing hardware components for the luggage tracking system. He conducts research to explore new hardware technologies and solutions and contributes to troubleshooting efforts and performance optimization of hardware modules. </p>
+            <a href="contact.php" class="w3-button w3-light-grey w3-block"><i class="fa fa-envelope"></i> Contact</a><br>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="w3-col l6 m12 w3-margin-bottom" style="margin-top:auto; margin-left:auto; margin-bottom:auto;">
+      <div class="w3-card-2" style="display:flex; align-items:center; justify-content:center;">
+        <div style="flex:1;">
+            <img src="images/admin4.jpg" alt="Niccole Fisalbon" style="width:100%; filter: saturate(250%); margin-left:12px;">
+        </div>
+        <div style="flex:2; padding: 0 16px;">
+          <div class="w3-container">
+            <h3 style="margin-top:12px; text-align:center">Niccole Fisalbon</h3>
+            <p class="w3-opacity" style="text-align:center">Junior Hardware Developer</p>
+            <p>Meet Niccole Fisalbon, one of the Junior Hardware Developer of Group 7, conducts research on hardware technologies and assists in building and testing hardware prototypes. Fisalbon collaborates with other team members to integrate hardware components with the software system and contributes to troubleshooting and optimization efforts.</p>
+            <a href="contact.php" class="w3-button w3-light-grey w3-block"><i class="fa fa-envelope"></i> Contact</a><br>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="w3-col l6 m12 w3-margin-bottom" style="margin-top:auto; margin-left:auto; margin-bottom:auto;">
+      <div class="w3-card-2" style="display:flex; align-items:center; justify-content:center;">
+        <div style="flex:1;">
+            <img src="images/admin5.png" alt="Aaliyah Aquino" style="width:100%; filter: saturate(250%); margin-left:12px;">
+        </div>
+        <div style="flex:2; padding: 0 16px;">
+          <div class="w3-container">
+            <h3 style="margin-top:12px; text-align:center">Aaliyah Aquino</h3>
+            <p class="w3-opacity" style="text-align:center">Lead Researcher</p>
+            <p>Meet Aaliyah Aquino, the Lead Researcher of Group 7, conducts market research to identify trends and technologies relevant to the project, gathers information, and provides research-based insights to inform product development. Aaliyah collaborates with the project team to incorporate research findings into the project's strategic direction.</p>
+            <a href="contact.php" class="w3-button w3-light-grey w3-block"><i class="fa fa-envelope"></i> Contact</a><br>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Footer -->
+<footer class="footer">
+  <h4 class="footer-dev">Developed by: <h4 class="footer-name">Naguit | Isidro | Opena | Fisalbon | Camus | Aquino</h4></h4>
+</footer>
+
+<script>
+	// Toggle between showing and hiding the sidebar when clicking the menu icon
+  function w3_open() {
+      var sidebar = document.getElementById("open_sidebar");
+      if (sidebar.style.display === 'block') {
+        sidebar.style.display = 'none';
+      } else {
+        sidebar.style.display = 'block';
+      }
+  }
+
+  // Close the sidebar with the close button
+  function w3_close() {
+      var sidebar = document.getElementById("open_sidebar");
+      sidebar.style.display = "none";
+    }
+</script>
+
+</body>
+</html>
